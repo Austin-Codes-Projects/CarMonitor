@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		837FD8A22A30FA000074EF29 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 837FD8A12A30FA000074EF29 /* FirebaseAuth */; };
+		837FD8A42A30FA000074EF29 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 837FD8A32A30FA000074EF29 /* FirebaseAuthCombine-Community */; };
+		837FD8A62A30FA000074EF29 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 837FD8A52A30FA000074EF29 /* FirebaseFirestore */; };
+		837FD8A82A30FA000074EF29 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 837FD8A72A30FA000074EF29 /* FirebaseFirestoreCombine-Community */; };
+		837FD8AA2A30FA000074EF29 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 837FD8A92A30FA000074EF29 /* FirebaseFirestoreSwift */; };
+		837FD8AC2A30FA550074EF29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 837FD8AB2A30FA550074EF29 /* GoogleService-Info.plist */; };
+		837FD8AD2A30FA550074EF29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 837FD8AB2A30FA550074EF29 /* GoogleService-Info.plist */; };
+		837FD8AE2A30FA550074EF29 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 837FD8AB2A30FA550074EF29 /* GoogleService-Info.plist */; };
+		A90BDCB92A26A9C7005DB07B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90BDCB82A26A9C7005DB07B /* SecondViewController.swift */; };
+		A911CF1A2A1BABB200B4D637 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF192A1BABB200B4D637 /* AppDelegate.swift */; };
+		A911CF1C2A1BABB200B4D637 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF1B2A1BABB200B4D637 /* SceneDelegate.swift */; };
+		A911CF1E2A1BABB200B4D637 /* SignInControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF1D2A1BABB200B4D637 /* SignInControler.swift */; };
+		A911CF212A1BABB200B4D637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A911CF1F2A1BABB200B4D637 /* Main.storyboard */; };
+		A911CF242A1BABB200B4D637 /* Conitor_ver_2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A911CF222A1BABB200B4D637 /* Conitor_ver_2.xcdatamodeld */; };
+		A911CF262A1BABB400B4D637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A911CF252A1BABB400B4D637 /* Assets.xcassets */; };
+		A911CF292A1BABB400B4D637 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A911CF272A1BABB400B4D637 /* LaunchScreen.storyboard */; };
+		A911CF342A1BABB400B4D637 /* Conitor_ver_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF332A1BABB400B4D637 /* Conitor_ver_2Tests.swift */; };
+		A911CF3E2A1BABB400B4D637 /* Conitor_ver_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF3D2A1BABB400B4D637 /* Conitor_ver_2UITests.swift */; };
+		A911CF402A1BABB400B4D637 /* Conitor_ver_2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A911CF3F2A1BABB400B4D637 /* Conitor_ver_2UITestsLaunchTests.swift */; };
+		A99B83AC2A32670200F6B17C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99B83AB2A32670200F6B17C /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A911CF302A1BABB400B4D637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A911CF0E2A1BABB200B4D637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A911CF152A1BABB200B4D637;
+			remoteInfo = "Conitor.ver-2";
+		};
+		A911CF3A2A1BABB400B4D637 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A911CF0E2A1BABB200B4D637 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A911CF152A1BABB200B4D637;
+			remoteInfo = "Conitor.ver-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		837FD8AB2A30FA550074EF29 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A90BDCB82A26A9C7005DB07B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A911CF162A1BABB200B4D637 /* Conitor.ver-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Conitor.ver-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A911CF192A1BABB200B4D637 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A911CF1B2A1BABB200B4D637 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A911CF1D2A1BABB200B4D637 /* SignInControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInControler.swift; sourceTree = "<group>"; };
+		A911CF202A1BABB200B4D637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A911CF232A1BABB200B4D637 /* Conitor_ver_2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Conitor_ver_2.xcdatamodel; sourceTree = "<group>"; };
+		A911CF252A1BABB400B4D637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A911CF282A1BABB400B4D637 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A911CF2A2A1BABB400B4D637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A911CF2F2A1BABB400B4D637 /* Conitor.ver-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conitor.ver-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A911CF332A1BABB400B4D637 /* Conitor_ver_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conitor_ver_2Tests.swift; sourceTree = "<group>"; };
+		A911CF392A1BABB400B4D637 /* Conitor.ver-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conitor.ver-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A911CF3D2A1BABB400B4D637 /* Conitor_ver_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conitor_ver_2UITests.swift; sourceTree = "<group>"; };
+		A911CF3F2A1BABB400B4D637 /* Conitor_ver_2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conitor_ver_2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A99B83AB2A32670200F6B17C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A911CF132A1BABB200B4D637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837FD8AA2A30FA000074EF29 /* FirebaseFirestoreSwift in Frameworks */,
+				837FD8A22A30FA000074EF29 /* FirebaseAuth in Frameworks */,
+				837FD8A82A30FA000074EF29 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				837FD8A42A30FA000074EF29 /* FirebaseAuthCombine-Community in Frameworks */,
+				837FD8A62A30FA000074EF29 /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF2C2A1BABB400B4D637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF362A1BABB400B4D637 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A911CF0D2A1BABB200B4D637 = {
+			isa = PBXGroup;
+			children = (
+				A911CF182A1BABB200B4D637 /* Conitor.ver-2 */,
+				A911CF322A1BABB400B4D637 /* Conitor.ver-2Tests */,
+				A911CF3C2A1BABB400B4D637 /* Conitor.ver-2UITests */,
+				A911CF172A1BABB200B4D637 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A911CF172A1BABB200B4D637 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A911CF162A1BABB200B4D637 /* Conitor.ver-2.app */,
+				A911CF2F2A1BABB400B4D637 /* Conitor.ver-2Tests.xctest */,
+				A911CF392A1BABB400B4D637 /* Conitor.ver-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A911CF182A1BABB200B4D637 /* Conitor.ver-2 */ = {
+			isa = PBXGroup;
+			children = (
+				837FD8AB2A30FA550074EF29 /* GoogleService-Info.plist */,
+				A911CF192A1BABB200B4D637 /* AppDelegate.swift */,
+				A911CF1B2A1BABB200B4D637 /* SceneDelegate.swift */,
+				A911CF1D2A1BABB200B4D637 /* SignInControler.swift */,
+				A90BDCB82A26A9C7005DB07B /* SecondViewController.swift */,
+				A911CF1F2A1BABB200B4D637 /* Main.storyboard */,
+				A99B83AB2A32670200F6B17C /* LoginViewController.swift */,
+				A911CF272A1BABB400B4D637 /* LaunchScreen.storyboard */,
+				A911CF252A1BABB400B4D637 /* Assets.xcassets */,
+				A911CF2A2A1BABB400B4D637 /* Info.plist */,
+				A911CF222A1BABB200B4D637 /* Conitor_ver_2.xcdatamodeld */,
+			);
+			path = "Conitor.ver-2";
+			sourceTree = "<group>";
+		};
+		A911CF322A1BABB400B4D637 /* Conitor.ver-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A911CF332A1BABB400B4D637 /* Conitor_ver_2Tests.swift */,
+			);
+			path = "Conitor.ver-2Tests";
+			sourceTree = "<group>";
+		};
+		A911CF3C2A1BABB400B4D637 /* Conitor.ver-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A911CF3D2A1BABB400B4D637 /* Conitor_ver_2UITests.swift */,
+				A911CF3F2A1BABB400B4D637 /* Conitor_ver_2UITestsLaunchTests.swift */,
+			);
+			path = "Conitor.ver-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A911CF152A1BABB200B4D637 /* Conitor.ver-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A911CF432A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2" */;
+			buildPhases = (
+				A911CF122A1BABB200B4D637 /* Sources */,
+				A911CF132A1BABB200B4D637 /* Frameworks */,
+				A911CF142A1BABB200B4D637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Conitor.ver-2";
+			packageProductDependencies = (
+				837FD8A12A30FA000074EF29 /* FirebaseAuth */,
+				837FD8A32A30FA000074EF29 /* FirebaseAuthCombine-Community */,
+				837FD8A52A30FA000074EF29 /* FirebaseFirestore */,
+				837FD8A72A30FA000074EF29 /* FirebaseFirestoreCombine-Community */,
+				837FD8A92A30FA000074EF29 /* FirebaseFirestoreSwift */,
+			);
+			productName = "Conitor.ver-2";
+			productReference = A911CF162A1BABB200B4D637 /* Conitor.ver-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A911CF2E2A1BABB400B4D637 /* Conitor.ver-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A911CF462A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2Tests" */;
+			buildPhases = (
+				A911CF2B2A1BABB400B4D637 /* Sources */,
+				A911CF2C2A1BABB400B4D637 /* Frameworks */,
+				A911CF2D2A1BABB400B4D637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A911CF312A1BABB400B4D637 /* PBXTargetDependency */,
+			);
+			name = "Conitor.ver-2Tests";
+			productName = "Conitor.ver-2Tests";
+			productReference = A911CF2F2A1BABB400B4D637 /* Conitor.ver-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A911CF382A1BABB400B4D637 /* Conitor.ver-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A911CF492A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2UITests" */;
+			buildPhases = (
+				A911CF352A1BABB400B4D637 /* Sources */,
+				A911CF362A1BABB400B4D637 /* Frameworks */,
+				A911CF372A1BABB400B4D637 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A911CF3B2A1BABB400B4D637 /* PBXTargetDependency */,
+			);
+			name = "Conitor.ver-2UITests";
+			productName = "Conitor.ver-2UITests";
+			productReference = A911CF392A1BABB400B4D637 /* Conitor.ver-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A911CF0E2A1BABB200B4D637 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A911CF152A1BABB200B4D637 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A911CF2E2A1BABB400B4D637 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A911CF152A1BABB200B4D637;
+					};
+					A911CF382A1BABB400B4D637 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A911CF152A1BABB200B4D637;
+					};
+				};
+			};
+			buildConfigurationList = A911CF112A1BABB200B4D637 /* Build configuration list for PBXProject "Conitor.ver-2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A911CF0D2A1BABB200B4D637;
+			packageReferences = (
+				837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A911CF172A1BABB200B4D637 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A911CF152A1BABB200B4D637 /* Conitor.ver-2 */,
+				A911CF2E2A1BABB400B4D637 /* Conitor.ver-2Tests */,
+				A911CF382A1BABB400B4D637 /* Conitor.ver-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A911CF142A1BABB200B4D637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A911CF292A1BABB400B4D637 /* LaunchScreen.storyboard in Resources */,
+				837FD8AC2A30FA550074EF29 /* GoogleService-Info.plist in Resources */,
+				A911CF262A1BABB400B4D637 /* Assets.xcassets in Resources */,
+				A911CF212A1BABB200B4D637 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF2D2A1BABB400B4D637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837FD8AD2A30FA550074EF29 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF372A1BABB400B4D637 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				837FD8AE2A30FA550074EF29 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A911CF122A1BABB200B4D637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99B83AC2A32670200F6B17C /* LoginViewController.swift in Sources */,
+				A911CF1E2A1BABB200B4D637 /* SignInControler.swift in Sources */,
+				A911CF242A1BABB200B4D637 /* Conitor_ver_2.xcdatamodeld in Sources */,
+				A911CF1A2A1BABB200B4D637 /* AppDelegate.swift in Sources */,
+				A90BDCB92A26A9C7005DB07B /* SecondViewController.swift in Sources */,
+				A911CF1C2A1BABB200B4D637 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF2B2A1BABB400B4D637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A911CF342A1BABB400B4D637 /* Conitor_ver_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A911CF352A1BABB400B4D637 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A911CF402A1BABB400B4D637 /* Conitor_ver_2UITestsLaunchTests.swift in Sources */,
+				A911CF3E2A1BABB400B4D637 /* Conitor_ver_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A911CF312A1BABB400B4D637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A911CF152A1BABB200B4D637 /* Conitor.ver-2 */;
+			targetProxy = A911CF302A1BABB400B4D637 /* PBXContainerItemProxy */;
+		};
+		A911CF3B2A1BABB400B4D637 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A911CF152A1BABB200B4D637 /* Conitor.ver-2 */;
+			targetProxy = A911CF3A2A1BABB400B4D637 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A911CF1F2A1BABB200B4D637 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A911CF202A1BABB200B4D637 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A911CF272A1BABB400B4D637 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A911CF282A1BABB400B4D637 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A911CF412A1BABB400B4D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A911CF422A1BABB400B4D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A911CF442A1BABB400B4D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conitor.ver-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A911CF452A1BABB400B4D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Conitor.ver-2/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A911CF472A1BABB400B4D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conitor.ver-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conitor.ver-2";
+			};
+			name = Debug;
+		};
+		A911CF482A1BABB400B4D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Conitor.ver-2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Conitor.ver-2";
+			};
+			name = Release;
+		};
+		A911CF4A2A1BABB400B4D637 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conitor.ver-2";
+			};
+			name = Debug;
+		};
+		A911CF4B2A1BABB400B4D637 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N8D45X26H5;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Conitor-ver-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Conitor.ver-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A911CF112A1BABB200B4D637 /* Build configuration list for PBXProject "Conitor.ver-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A911CF412A1BABB400B4D637 /* Debug */,
+				A911CF422A1BABB400B4D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A911CF432A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A911CF442A1BABB400B4D637 /* Debug */,
+				A911CF452A1BABB400B4D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A911CF462A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A911CF472A1BABB400B4D637 /* Debug */,
+				A911CF482A1BABB400B4D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A911CF492A1BABB400B4D637 /* Build configuration list for PBXNativeTarget "Conitor.ver-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A911CF4A2A1BABB400B4D637 /* Debug */,
+				A911CF4B2A1BABB400B4D637 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		837FD8A12A30FA000074EF29 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		837FD8A32A30FA000074EF29 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		837FD8A52A30FA000074EF29 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		837FD8A72A30FA000074EF29 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		837FD8A92A30FA000074EF29 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 837FD8A02A30FA000074EF29 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A911CF222A1BABB200B4D637 /* Conitor_ver_2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A911CF232A1BABB200B4D637 /* Conitor_ver_2.xcdatamodel */,
+			);
+			currentVersion = A911CF232A1BABB200B4D637 /* Conitor_ver_2.xcdatamodel */;
+			path = Conitor_ver_2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A911CF0E2A1BABB200B4D637 /* Project object */;
+}
