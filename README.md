@@ -3,3 +3,7 @@ A personal assistant and community forum app that allows for people who have los
 
 ## UI Flow
 [View the app's UI flow](https://austin-codes-projects.github.io/CarMonitor/)
+
+
+## UI Flow image
+![CarMonitor UI flow](ui-flow.png)
